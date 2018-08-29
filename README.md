@@ -11,12 +11,26 @@ Use the https://jsonplaceholder.typicode.com/ API to create a blogging applicati
 
 The app has to be a React app that uses Redux to store the state.
 
+## Implementations notes
+
+It's an MVP (minimal valuable product), so many things were omitted to finish assignment in less time:
+
+* No routing.
+* No form sanitizing.
+* No loading/in progress states.
+* No error handling.
+* No visual design.
+* Doesn't handle edge cases, where title or body of a post is empty.
+* Only few tests.
+
+Due fake API limitation, it's not possible to create more than one post without messing with data.
+
 ## Docs
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/next/packages/react-scripts/template/README.md).
 
 ## Available Scripts
 

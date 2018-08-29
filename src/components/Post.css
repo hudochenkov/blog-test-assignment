@@ -1,0 +1,23 @@
+.post {
+}
+.post__header {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+.post__title {
+	flex: 1 1 auto;
+	margin: 0;
+}
+.post__actions {
+	display: flex;
+	flex: 0 0 auto;
+	margin: 5px 0 0 24px;
+	padding: 0;
+	list-style: none;
+}
+.post__action {
+}
+.post__action:not(:first-child) {
+	margin-left: 24px;
+}
