@@ -1,5 +1,7 @@
 # Blog Test Assignment
 
+See how it works: https://blog-test-assignment-3f3278.netlify.com/
+
 ## Requirements
 
 Use the https://jsonplaceholder.typicode.com/ API to create a blogging application.
